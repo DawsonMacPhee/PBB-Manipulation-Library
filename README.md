@@ -6,8 +6,8 @@ Functions
         Copy "bytes" number of bytes from the src address to the unsigned char array dest.
         If reverse is 1, flip the copy order (little endian vs big endian).
         
-    getBits(char dest[], int byte, void *src, int start, int end)
-        Retrieve bits beginnning in byte number "byte" and in range "start" to "end".
+    getBits(char dest[], int bytes, void *src, int start, int end)
+        Retrieve bits in range "start" to "end". Bytes is the total number of bytes in the src.
         Convert the bits to characters and output to char array dest.
         
     bits2ull(char *bits)

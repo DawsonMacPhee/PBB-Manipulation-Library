@@ -3,18 +3,18 @@ This is a collection of functions for the manipulation of pointers, bits, and by
 Functions
 
     getBytes(unsigned char dest[], int bytes, void *src, int reverse)
-        Copy bytes number of bytes from the src address to the unsigned char array dest.
-        If reverse == 1, flip the copy order (little endian vs big endian).
+        Copy "bytes" number of bytes from the src address to the unsigned char array dest.
+        If reverse is 1, flip the copy order (little endian vs big endian).
         
-    getBits(char dest[], int bytes, void *src, int start, int end)
+    getBits(char dest[], int byte, void *src, int start, int end)
         Retrieve bits beginnning in byte number "byte" and in range "start" to "end".
         Convert the bits to characters and output to char array dest.
         
     bits2ull(char *bits)
-        Converts binary written in string form to an unsigned long long
+        Converts binary written in string form to an unsigned long long (returns)
         
     bits2ll(char *bits)
-        Converts binary written in string form to a signed long long
+        Converts binary written in string form to a signed long long (returns)
         
     spff(char *sign, char *exponent, char *significand, float *src)
         Converts a float into 3 strings; exponent, sign, and significand

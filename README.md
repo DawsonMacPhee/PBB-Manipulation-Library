@@ -1,7 +1,9 @@
+This is a collection of functions for the manipulation of pointers, bits, and bytes.
+
 Files
 
     bandb.c
-        Contains all the functions for the assignment
+        Contains all the functions in the library.
     bandb.h
         Contains all the function declarations for the functions in bandb.c
     test_getbytes.c

@@ -1,6 +1,14 @@
+#ifndef __stdio_h_
 #include <stdio.h>
+#endif
+
+#ifndef __string_h_
 #include <string.h>
+#endif
+
+#ifndef __stdlib_h_
 #include <stdlib.h>
+#endif
 
 // copies specified number of bytes from src to dest
 // reverses byte copy order if reverse is true

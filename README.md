@@ -1,5 +1,21 @@
 This is a collection of functions for the manipulation of pointers, bits, and bytes.
 
+Functions
+
+    getBytes(unsigned char dest[], int bytes, void *src, int reverse)
+        Copy bytes number of bytes from the src address to the unsigned char array dest.
+        If reverse == 1, flip the copy order (little endian vs big endian).
+    getBits(char dest[], int bytes, void *src, int start, int end)
+        Retrieves bits from the src address between indexes start and end; copies them into the char array dest.
+    bits2ull
+        Converts binary written in string form to an unsigned long long
+    bits2ll
+        Converts binary written in string form to a signed long long
+    spff
+        Converts a float into 3 strings; exponent, sign, and significand
+    dpff
+        Converts a double into 3 strings; exponent, sign, and significand
+
 Files
 
     bandb.c

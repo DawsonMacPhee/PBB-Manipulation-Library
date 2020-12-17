@@ -7,19 +7,19 @@ Functions
         If reverse == 1, flip the copy order (little endian vs big endian).
         
     getBits(char dest[], int bytes, void *src, int start, int end)
-        Retrieves bits from the src address between indexes start and end.
-        Copies the bits into the char array dest.
+        Retrieve bits beginnning in byte number "byte" and in range "start" to "end".
+        Convert the bits to characters and output to char array dest.
         
-    bits2ull
+    bits2ull(char *bits)
         Converts binary written in string form to an unsigned long long
         
-    bits2ll
+    bits2ll(char *bits)
         Converts binary written in string form to a signed long long
         
-    spff
+    spff(char *sign, char *exponent, char *significand, float *src)
         Converts a float into 3 strings; exponent, sign, and significand
         
-    dpff
+    dpff(char *sign, char *exponent, char *significand, double *src)
         Converts a double into 3 strings; exponent, sign, and significand
 
 Files

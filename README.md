@@ -1,4 +1,5 @@
 Files
+
     bandb.c
         Contains all the functions for the assignment
     bandb.h
@@ -17,6 +18,7 @@ Files
         Contains a main function for testing the dpff function
 
 Usage
+
     make all
         Compiles all test files and creates a bandb.o file
     make clean

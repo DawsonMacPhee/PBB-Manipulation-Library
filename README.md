@@ -53,9 +53,6 @@ Usage (make)
     all
         Compiles all the functions for the library and creates test executables
         
-    clean
-        Deletes all compiles executables and object files
-        
     bandb.o
         Compliles bandb.c as an object file called bandb.o
         
@@ -94,3 +91,6 @@ Usage (make)
         
     test_dpff
         Creates executable test_dpff
+        
+    clean
+        Deletes all compiles executables and object files

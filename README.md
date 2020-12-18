@@ -51,7 +51,7 @@ Files
 Usage (make)
 
     all
-        Compiles all test files and creates a bandb.o file
+        Compiles all the functions for the library and creates test executables
         
     clean
         Deletes all compiles executables and object files

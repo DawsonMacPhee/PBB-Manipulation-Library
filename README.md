@@ -48,49 +48,49 @@ Files
     test_dpff.c
         Contains a main function for testing the dpff function
 
-Usage
+Usage (make)
 
-    make all
+    all
         Compiles all test files and creates a bandb.o file
         
-    make clean
+    clean
         Deletes all compiles executables and object files
         
-    make bandb.o
+    bandb.o
         Compliles bandb.c as an object file called bandb.o
         
-    make test_getbytes.o
+    test_getbytes.o
         Creates object file test_getbytes.o
         
-    make test_getbits.o
+    test_getbits.o
         Creates object file test_getbits.o
         
-    make test_bits2ull.o
+    test_bits2ull.o
         Creates object file test_bits2ull.o
         
-    make test_bits2ll.o
+    test_bits2ll.o
         Creates object file test_bits2ll.o
         
-    make test_spff.o
+    test_spff.o
         Creates object file test_spff.o
         
-    make test_dpff.o
+    test_dpff.o
         Creates object file test_dpff.o
         
-    make test_getbytes
+    test_getbytes
         Creates executable test_getbytes
         
-    make test_getbits
+    test_getbits
         Creates executable test_getbits
         
-    make test_bits2ull
+    test_bits2ull
         Creates executable test_bits2ull
         
-    make test_bits2ll
+    test_bits2ll
         Creates executable test_bits2ll
         
-    make test_spff
+    test_spff
         Creates executable test_spff
         
-    make test_dpff
+    test_dpff
         Creates executable test_dpff

@@ -93,4 +93,4 @@ Usage (make)
         Creates executable test_dpff
         
     clean
-        Deletes all compiles executables and object files
+        Deletes all compiled executables and object files
